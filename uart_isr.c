@@ -28,3 +28,8 @@ static void uart_write(int ch)
     /*Write to transmit data register*/
     USART2->DR = (ch & 0xFF);
 }
+
+void dma_config(void)
+{
+    
+}
